@@ -36,6 +36,9 @@ Steps:
         .venv/Scripts/Activate
 
     c. install python packages into virtual environment
+    
+    The current frozen package versions in requirements.txt were installed and frozen in a Python 3.8 virtual environment. If you are using a different version of Python and 
+    are experiencing issues, remove the version specifications of the following packages: tensorflow, tensorboard, protobuf, keras, google-auth-oauthlib, dlib and proceed as usual. 
 
          pip install -r requirements.txt
 
